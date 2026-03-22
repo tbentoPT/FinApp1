@@ -30,7 +30,7 @@ fte = st.sidebar.number_input("# FTE", value=400)
 cost_per_fte = st.sidebar.number_input("€/FTE", value=60000.0)
 ga_month = st.sidebar.number_input("G&A/Month", value=750000.0)
 depreciation = st.sidebar.number_input("Depreciation", value=650000.0)
-interest = st.sidebar.number_input("Interest Income", value=50000.0)
+interest = st.sidebar.number_input("Interest Income", value=40000.0)
 tax_rate = st.sidebar.number_input("Tax Rate %", value=20.0) / 100
 
 st.sidebar.header("3. Working Capital")
